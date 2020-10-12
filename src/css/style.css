@@ -2548,7 +2548,8 @@ input.with-border, input[type="text"].with-border, input[type="password"].with-b
 }
 
 /* With Border */
-textarea.with-border, select.with-border {
+textarea.with-border,
+select.with-border {
   border: 1px solid #e0e0e0;
   -webkit-box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.05);
@@ -2612,15 +2613,19 @@ textarea {
   min-width: 100%;
 }
 
-label, legend {
+label,
+legend {
   display: block;
   font-weight: bold;
   font-size: 16px;
   font-weight: normal;
   margin-bottom: 8px;
+  text-align: left;
+  margin-top: 20px;
 }
 
-label span, legend span {
+label span,
+legend span {
   font-weight: normal;
   font-size: 14px;
   color: #444;

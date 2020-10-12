@@ -2,7 +2,7 @@
 /* Forms Reset & Styles
 ------------------------------------- */
 
-$body-input-font-color:           #808080;
+$body-input-font-color: #808080;
 
 input {
   height: 48px;
@@ -22,7 +22,10 @@ input {
   border-radius: $global-border-radius;
   border: none;
   box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.12);
-  &[type="text"], &[type="password"], &[type="email"], &[type="number"] {
+  &[type="text"],
+  &[type="password"],
+  &[type="email"],
+  &[type="number"] {
     height: 48px;
     line-height: 48px;
     padding: 0 20px;
@@ -91,7 +94,11 @@ input {
   -o-transition: all 0.1s ease-in-out;
   -ms-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
-  &:focus, &[type="text"]:focus, &[type="password"]:focus, &[type="email"]:focus, &[type="number"]:focus {
+  &:focus,
+  &[type="text"]:focus,
+  &[type="password"]:focus,
+  &[type="email"]:focus,
+  &[type="number"]:focus {
     color: $body-input-font-color;
     transition: box-shadow 0.2s !important;
     opacity: 1;
@@ -117,7 +124,11 @@ input {
     -webkit-box-shadow: 0 0 0 30px #fff inset !important;
     -webkit-text-fill-color: $body-input-font-color !important;
   }
-  &.with-border, &[type="text"].with-border, &[type="password"].with-border, &[type="email"].with-border, &[type="number"].with-border {
+  &.with-border,
+  &[type="text"].with-border,
+  &[type="password"].with-border,
+  &[type="email"].with-border,
+  &[type="number"].with-border {
     border: 1px solid #e0e0e0;
     box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.05);
   }
@@ -125,13 +136,18 @@ input {
 
 /* With Border */
 
-textarea.with-border, select.with-border {
+textarea.with-border,
+select.with-border {
   border: 1px solid #e0e0e0;
   box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.05);
 }
 
 input {
-  &.with-border:focus, &[type="text"].with-border:focus, &[type="password"].with-border:focus, &[type="email"].with-border:focus, &[type="number"].with-border:focus {
+  &.with-border:focus,
+  &[type="text"].with-border:focus,
+  &[type="password"].with-border:focus,
+  &[type="email"].with-border:focus,
+  &[type="number"].with-border:focus {
     border: 1px solid #e0e0e0;
     box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.08);
   }
@@ -175,15 +191,19 @@ textarea {
   min-width: 100%;
 }
 
-label, legend {
+label,
+legend {
   display: block;
   font-weight: bold;
   font-size: $body-font-size;
   font-weight: normal;
   margin-bottom: 8px;
+  text-align: left;
+  margin-top: 20px;
 }
 
-label span, legend span {
+label span,
+legend span {
   font-weight: normal;
   font-size: 14px;
   color: #444;
@@ -218,7 +238,8 @@ button {
 }
 
 a {
-  &:focus, &:hover {
+  &:focus,
+  &:hover {
     text-decoration: none;
     color: $body-heading-color;
   }
@@ -227,7 +248,6 @@ a {
 img {
   max-width: 100%;
 }
-
 
 /* ---------------------------------- */
 /* Input With Icon
@@ -275,7 +295,7 @@ img {
     border: 1px solid #e0e0e0;
     box-sizing: border-box;
     display: block;
-    border-radius: $global-border-radius 0 0 $global-border-radius;;
+    border-radius: $global-border-radius 0 0 $global-border-radius;
   }
   &.no-border i {
     border: none;
@@ -337,7 +357,6 @@ img {
   }
 }
 
-
 @keyframes KeywordOut {
   0% {
     opacity: 1;
@@ -352,7 +371,6 @@ img {
     margin-top: -35px;
   }
 }
-
 
 .keyword-text {
   padding-right: 12px;
