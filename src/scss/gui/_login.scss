@@ -1,0 +1,40 @@
+.hedear-bg {
+  background: black;
+}
+
+.login__title {
+  // margin-top: 5rem;
+  h3,
+  span {
+    text-align: left;
+  }
+}
+
+.button__top {
+  margin-top: 1rem;
+}
+
+.login__bg {
+  background: url(/src/images/login.png) no-repeat right;
+  height: calc(100vh - 82px);
+  background-size: contain;
+}
+
+.register__bg {
+  background: url(/src/images/group.svg) no-repeat right;
+  height: calc(100vh - 82px);
+  background-position-y: bottom;
+}
+
+/* Media Queries for Login */
+@media (max-width: 768px) {
+  .login__bg {
+    background: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .register__bg {
+    background: none;
+  }
+}
